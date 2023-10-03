@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nidocument>
+<nicomment>
+
+<nifamily familyname="JMP-Automation" displayname="JMP-Automation">
+</nifamily>
+</nicomment>
+<nierror code="500001">
+JMP Automation: The DataTable handle is not valide.
+</nierror>
+<nierror code="500002">
+
+</nierror>
+</nidocument>
