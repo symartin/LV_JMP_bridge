@@ -11,17 +11,16 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Example 1.vi" Type="VI" URL="/&lt;instrlib&gt;/LV_JMP_bridge/Example 1.vi"/>
+		<Item Name="Examples" Type="Folder">
+			<Item Name="Example 1.vi" Type="VI" URL="/&lt;instrlib&gt;/LV_JMP_bridge/Exmples/Example 1.vi"/>
+		</Item>
 		<Item Name="JMP Automation.lvlib" Type="Library" URL="/&lt;instrlib&gt;/LV_JMP_bridge/JMP Automation.lvlib"/>
-		<Item Name="Example 2 - TDMS to JMP.vi" Type="VI" URL="/&lt;instrlib&gt;/LV_JMP_bridge/Example 2 - TDMS to JMP.vi"/>
-		<Item Name="sort name by time.vi" Type="VI" URL="/&lt;instrlib&gt;/LV_JMP_bridge/sort name by time.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
-				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 				<Item Name="Random Number (Range) DBL.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) DBL.vi"/>
 				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
 				<Item Name="ex_BuildTextVarProps.ctl" Type="VI" URL="/&lt;vilib&gt;/express/express output/BuildTextBlock.llb/ex_BuildTextVarProps.ctl"/>
